@@ -1,9 +1,10 @@
 import React from 'react';
+import Salider from '../Salider/Salider';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is home</h1>
+            <Salider></Salider>
         </div>
     );
 };

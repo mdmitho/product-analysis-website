@@ -1,15 +1,25 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './components/About/About';
+import Blogs from './components/Blogs/Blogs';
+import CustomerReviews from './components/CustomerReviews/CustomerReviews';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Dashboard from '../src/components/Dashboard/Dashboard'
 
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="mt-5">hi</h1>
-
+    <div className="container">
+        <Header></Header>
       <Routes>
-            <Route path='/'></Route>
+            <Route path='/' element={<Home></Home>}></Route>
+            <Route path='/home' element={<Home></Home>}></Route>
+            <Route path='/reviews' element={<CustomerReviews></CustomerReviews>}></Route>
+            <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
+            <Route path='/about' element={<About></About>}></Route>
+            <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
     </div>
   );
