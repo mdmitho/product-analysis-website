@@ -1,0 +1,50 @@
+[
+    {   "id": 1,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuVRgEbUUPxuyxnFw1ZPt9_LVc0LYE8uFNhA&usqp=CAU",
+        "name":"Sergio M.",
+        "review" : "I didn't think I'd be using the touchscreen as much as I thought. It is super smooth like you'd expect a high end tablet.",
+        "rating" : 4.9
+    },
+    {  
+        "id":2,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt3VUC8GpmFONZ1zHeX4inKMpyNNA7NUVNQw&usqp=CAU",
+        "name":"Daniel G. Alexis",
+        "review" : "Coming from a traditional laptop, this is an amazing option if you want a truly versatile and convenient computer. I wouldn't expect to play games at the highest settings but for it's price point it makes sense.",
+        "rating" : 4.5
+    },
+    {   
+        "id":3,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwRgJuzl57CYntDcZu_Sb02hzAiU2NowGayQ&usqp=CAU",
+        "name":"yaniv.shams",
+        "review" : "Good for daily tasks like web browsing and office work. not for gaming. screen is ok the 1080 resolution is not the best. size is great and keyboard is great. touch screed is a fun extra. not worth more then 600$",
+        "rating" : 4.6
+    },
+    {
+        "id":4,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYoj0KWJI9-K7Ze2K8OQ9MZzoHdEzNLUtGRA&usqp=CAU",
+        "name":"Walter F Rodriguez",
+        "review" : "The processor is fantastic and can handle anything I throw at it, including some light gaming. I'm a fan of the design and, while it's a little heavier than typical ultrabooks, it's not a huge weight as I take it with me through my day.",
+        "rating" : 4.8
+    },
+    {
+        "id":5,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVlfiXAYSvqFFvAdSbd3FrFbq1NzWFqLqr3A&usqp=CAU",
+        "name":"Zention",
+        "review" : "Una cosa que no me ha gustado es la disposición del botón de encendido/apagado. Está en el lateral derecho y en ocaciónes lo presiono sin querer al momento de moverla o voltearla a modo tableta; no es nada grave pero estaría mejor integrado junto al teclado, o incluso en el sensor de huella.",
+        "rating" : 4.3
+    },
+    {
+        "id":6,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZCzMFzAZPtDnzHX1Qj-kuHNWHSQ8AbhP1Q&usqp=CAU",
+        "name":"Claudio Monzoni",
+        "review" : "La laptop es buena por el precio, me gusto que se siente bien construida aunque sea de plástico, la pantalla no tiene buenos colores, tienden a verse deslavados.  Un error que no me gusto es que los controladores de video no estan optimizados y hay glitches en la pantalla, supongo es cuestión de tiempo que los arreglen",
+        "rating" : 5.0
+    },
+    {
+        "id":7,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_lB0zHrt60hoQLrfN_6yRD38TDrxrhgsw1Q&usqp=CAU",
+        "name":"liz",
+        "review" : "We bought this laptop as a Christmas gift for my daughter. We were very pleased with the screen quality and touch screen. Also, what you get with this laptop is extraordinary. You can’t beat the price for what you’re getting. I would definitely buy another one. Kind of wish I needed another one",
+        "rating" : 4.9
+    }
+]
