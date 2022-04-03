@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
 
 const useLaptop = () =>{
-    const [coment,setComent] = useState([])
+    const [coment, setComent] = useState([])
+
 
     useEffect(()=> {
         fetch('laptop.json')
