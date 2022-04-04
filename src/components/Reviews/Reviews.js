@@ -13,7 +13,7 @@ const Reviews = () => {
      
         <div>
             <h1 className='mt-5 text-center color'>Customer Reviews</h1>
-      <div className="row row-cols-1 row-cols-md-3 g-4 mt-3 rounded-pill">
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3 rounded-pill">
       {
         coments.map(coment => 
              <Coment
