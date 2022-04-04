@@ -43,10 +43,14 @@ const data =[
     }
 ]
     return (
+        <div className="">
+
+   <h1 className='text-center mb-5 color'>Investment and Sell</h1>
+
+
+        <div className='row row-cols-1 row-cols-md-2 g-4  mt-5'>
         
-        <div className='row  mt-5'>
-           <h1 className='text-center mb-5 color'>Investment and Sell</h1>
-            <div className="col-6">
+            <div className="col  ">
               
             <LineChart  width={500} height={300} data={data}>
                 <Line dataKey={'investment'}></Line>
@@ -57,7 +61,7 @@ const data =[
             </LineChart>
 
             </div>
-            <div className="col-6">
+            <div className="col ">
 
             <BarChart
       width={500}
@@ -81,8 +85,8 @@ const data =[
 
 
             </div>
-           <div className="row">
-           <div className=" col-6">
+            <div className="row row-cols-1 row-cols-md-2 g-4  mt-5 ms-5">
+           <div className=" col ">
            <PieChart width={1000} height={400}>
       <Pie
         dataKey="revenue"
@@ -98,7 +102,8 @@ const data =[
       <Tooltip />
     </PieChart>
             </div>
-            <div className="col-6">
+            <div className="">
+            <div className="col  ms-5">
 
 
             <RadarChart cx={300} cy={250} outerRadius={150} width={500} height={500} data={data}>
@@ -111,7 +116,11 @@ const data =[
     </RadarChart>
 
             </div>
+            </div>
            </div>
+
+        </div>
+
         </div>
     );
 };
