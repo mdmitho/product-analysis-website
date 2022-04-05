@@ -6,7 +6,7 @@ const Salider = () => {
   return (
     <div>
     
-      <div className=" d-flex  mt-3 p-5 row row-cols-lg-2">
+      <div className=" d-flex  mt-3 p-4 row row-cols-lg-2">
         <div className="flex-grow-1 p-5 mt-5 ">
        <h1 className="color"> AMAZING    LAPTOP </h1>
        <p className="mt-5">Tk45,529 Shipping & Import Fees Deposit to Bangladesh Details 

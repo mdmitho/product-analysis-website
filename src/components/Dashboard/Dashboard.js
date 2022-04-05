@@ -43,7 +43,7 @@ const data =[
     }
 ]
     return (
-        <div className="">
+        <div className="container">
 
    <h1 className='text-center mb-5 color'>Investment and Sell</h1>
 
@@ -51,7 +51,7 @@ const data =[
         <div className='row row-cols-1 row-cols-md-2 g-4  mt-5'>
         
             <div className="col  ">
-              
+              <h1>LineChart</h1>
             <LineChart  width={500} height={300} data={data}>
                 <Line dataKey={'investment'}></Line>
                 <Line dataKey={'sell'}></Line>
@@ -62,7 +62,7 @@ const data =[
 
             </div>
             <div className="col ">
-
+<h1>BarChart</h1>
             <BarChart
       width={500}
       height={300}
@@ -104,7 +104,6 @@ const data =[
             </div>
             <div className="">
             <div className="col  ms-5">
-
 
             <RadarChart cx={300} cy={250} outerRadius={150} width={500} height={500} data={data}>
       <PolarGrid />
